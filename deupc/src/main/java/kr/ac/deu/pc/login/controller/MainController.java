@@ -20,4 +20,9 @@ public class MainController {
 		return "login/login";
 	}
 	
+	@RequestMapping(value="/pc/smain")
+	public String smain() {
+		return "pc/smain";
+	}
+	
 }
